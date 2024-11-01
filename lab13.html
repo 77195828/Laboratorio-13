@@ -22,8 +22,8 @@
        return a/b;
         }
      // funcion calculadora punto 2//
-     function calculadora(n1,n2,opera){
-       switch (opera){
+     function calculadora(n1,n2,operacion){
+       switch (operacion){
          case 'sumar' :
             return sumar(n1,n2);
          case 'restar' :
@@ -40,7 +40,7 @@
       let numero2=parseFloat(prompt("Ingrese el segundo numero: "));
       let operacion=prompt("Ingrese la operacion(sumar, restar, multi,divi)");
 
-      let resultado=calculadora(numero1,numero2,opera);
+      let resultado=calculadora(numero1,numero2,operacion);
 
       document.write("El resultado es: "+resultado);
       console.log("El resultado es: "+resultado);
